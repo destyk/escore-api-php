@@ -1,0 +1,25 @@
+{
+    "name": "destyk/escore-api-php",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "Unofficial API for ESCore.gg",
+    "license": "MIT",
+    "homepage": "https://github.com/destyk/escore-api-php",
+    "support": {
+        "issues": "https://github.com/destyk/escore-api-php/issues"
+    },
+    "require": {
+        "php": ">=7.0.1",
+        "php-curl-class/php-curl-class": "^8.10"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ]
+    },
+    "config": {
+        "platform": {
+            "php": "7.0.1"
+        }
+    }
+}
